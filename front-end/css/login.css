@@ -1,0 +1,43 @@
+bodY{
+background-color: rgb(112, 107, 100);
+}
+
+#form-container{
+    margin-top: 50px;
+    background-color: rgb(175, 172, 167);
+    border-radius: 10px;
+    padding: 50px 20px;
+    /*Sombreamento horizontal, vertical, borrão, cor em rgba com opacidade  */
+    box-shadow: 0.5px 10px 15px rgb(0, 0, 0);
+     
+}
+
+#form-container h2{
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+
+}
+/* modificando aparência de inputs */
+
+#form-container .form-control{
+    border:none;
+    border-bottom: 1px solid #7e7979;
+    border-radius: 0;
+    background-color: #c4bfbf;
+}
+
+#form-container .form-control:focus{
+    box-shadow: none;
+}
+
+#link-container {
+    margin: 50px auto;
+}
+
+#link-container a{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color:#000000
+}

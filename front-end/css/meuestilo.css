@@ -1,0 +1,36 @@
+*{
+    font-family: "roboto",sans-serif;
+
+}
+.cor-fundo-1{
+
+    background-color: #332f2fd8;
+}
+.cor-fundo-2{
+
+    background-color: #C0C0C0 ;
+
+}
+.cor-1{
+
+    color: #fff;
+
+}
+.cor-2{
+
+    color: #363636;
+
+}
+body{
+    background-color: rgb(95, 91, 89);
+}
+
+#banners-container{
+    padding: 0;
+    margin-top: 30px;
+}
+
+#banners-container img{
+    height: 600px;
+    object-fit:cover;
+}
